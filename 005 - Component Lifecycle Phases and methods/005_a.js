@@ -10,6 +10,7 @@ class App extends React.Component {
     console.log('Component Will unmount');
   }
   render() {
+    console.log('Render');
     return <div>
       <h1>Hello from Class</h1>
       <button onClick={() => {this.forceUpdate();}}>+</button>
