@@ -26,7 +26,8 @@ class NewApp extends React.Component {
 
   componentDidUpdate(){
     console.log('componentDidUpdate');
-  }
+  };
+  
   render() {
     console.log('Render');
     return <div>
