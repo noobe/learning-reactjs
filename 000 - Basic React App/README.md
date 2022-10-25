@@ -25,3 +25,17 @@ Note that these are React elements and not normal HTML elements. React elements 
 ```js
 React.createElement('h1', null, 'Hello World')
 ```
+
+## Sections inside
+1 - Render an element using React: renders a singe React element onto the page.
+```js
+root.render(React.createElement('h1', null, 'Hello World'));
+```
+2 - Render Nested Elements using React: renders nested elements onto the page.
+```js
+root.render(React.createElement(
+  'ul',
+  null,
+  React.createElement('li', {style:{color:'red'}}, 'First')
+));
+```
