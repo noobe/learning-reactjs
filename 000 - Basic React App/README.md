@@ -31,6 +31,8 @@ React.createElement('h1', null, 'Hello World')
 ```js
 root.render(React.createElement('h1', null, 'Hello World'));
 ```
+CopePen: https://codepen.io/noobe/pen/KKewNdB
+
 2 - Render Nested Elements using React: renders nested elements onto the page.
 ```js
 root.render(React.createElement(
@@ -39,3 +41,5 @@ root.render(React.createElement(
   React.createElement('li', {style:{color:'red'}}, 'First')
 ));
 ```
+
+CodePen: https://codepen.io/noobe/pen/RwJNoKp
