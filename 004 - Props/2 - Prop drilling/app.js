@@ -1,10 +1,12 @@
-const Banner = props => <button>{props.myLabel}</button>
+const Label = props => <h1>{props.text}</h1>
+
+const Banner = props => <button><Label text={props.myLabel}/></button>
 
 class App extends React.Component {
   render() {
     return <div>
-      <Banner myLabel="The functional button" />
-      <h1>Hello {this.props.name}</h1>
+      <Banner myLabel={this.props.name} />
+      <h1>Hello</h1>
     </div>;
   }
 }
