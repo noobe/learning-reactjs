@@ -5,5 +5,5 @@ const NewApp = () => <div>
   <h1>Hello from Functional</h1>
 </div>
 
-const root2 = ReactDOM.createRoot(document.getElementById('root2'));
-root2.render(<NewApp />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<NewApp />);

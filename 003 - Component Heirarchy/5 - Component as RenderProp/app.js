@@ -4,10 +4,12 @@ class Button extends React.Component {
   }
 }
 
+const Banner = props => <div>{props.render()}<h3>This is a banner</h3></div>
+
 class App extends React.Component {
   render() {
     return <div>
-      <Button />
+      <Banner render={() => <Button />}/>
       <h1>Hello from Class</h1>
     </div>;
   }
