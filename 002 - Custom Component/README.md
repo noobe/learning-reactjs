@@ -17,8 +17,8 @@ class App extends React.Component {
   }
 }
 
-const root1 = ReactDOM.createRoot(document.getElementById('root1'));
-root1.render(<App />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
 ```
 
 A class based component should contain a method called render that returns a markup.
@@ -27,8 +27,8 @@ Function based
 ```js
 const NewApp = () => <h1>Hello!</h1>
 
-const root2 = ReactDOM.createRoot(document.getElementById('root2'));
-root2.render(<NewApp />);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<NewApp />);
 ```
 
 As seen in the examples above Class based component needs more code to get the same result as a Functional Component.
