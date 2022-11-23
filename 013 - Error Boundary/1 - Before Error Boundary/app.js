@@ -1,4 +1,4 @@
-const Banner = props => <button>{props.myLabel</button>
+const Banner = props => <button>{props1.myLabel}</button>
 
 class App extends React.Component {
   render() {
